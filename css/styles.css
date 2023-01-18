@@ -46,7 +46,7 @@ img {
   --primary-text-color: #434455;
   --secondary-text-color: #e7e9fc;
   --main-background-color: #ffffff;
-  --secondary-background-color: #2e2f42;
+  --secondary-background-color:#2e2f42;
   --alternative-background-color: #f4f4fd;
   --primary-btn-color: #4d5ae5;
   --secondary-btn-color: #404bbf;
@@ -156,8 +156,12 @@ body {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
+  max-width: 1440px;
 
-  text-align: center;
+  text-align: center; 
+  background-size: cover;
+  background-position: center;
+  background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)) , url(../images/main/background/hero-bcgd.jpg);
   background-color: var(--secondary-background-color);
 }
 
